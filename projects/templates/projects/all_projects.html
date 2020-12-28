@@ -1,14 +1,10 @@
+{% extends 'projects/base.html' %}
+
 {% load static %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Title</title>
-</head>
-<body>
+{% block content %}
+
+</body>
 <div class = "container">
     <h1>Projects</h1>
     <div class="row">
@@ -28,5 +24,6 @@
     </div>
     {% endfor %}    </div>
 </div>
-</body>
-</html>
+
+
+{% endblock %}
